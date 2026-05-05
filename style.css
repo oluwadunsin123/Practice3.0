@@ -1,34 +1,260 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
     /* background-color:white; */
 }
-.main-container{
+
+.main-container {
     display: grid;
     grid-template-columns: 220px 1fr;
     height: 100vh;
 }
-.container{
-    background: #c1c1c2;
+
+.container {
+    background: #e3e3e3;
     border-radius: 20px;
+    margin: 12px 5px;
+    /* padding: 20px; */
+    width: 100%;
+
 }
-.sidebar{
-    padding:40px;
+
+.sidebar {
+    padding: 40px;
     /* border-right: 10px solid #ddd; */
-    
 }
-.para{
+
+.para {
     padding: 10px;
 }
-.logo{
-    margin:20px 0 30px 20px;
+
+.logo {
+    margin: 20px 0 30px 20px;
 }
-.sidebar ul li{
+
+.sidebar ul li {
     padding: 5px;
     margin-bottom: 10px;
+    list-style: none;
 }
-.gen{
-     padding:40px;
+
+.gen {
+    padding: 0px 40px;
+}
+.h .h1{
+    border-left: 7px solid rgb(0, 96, 0);
+    border-radius: 5px;
+    padding: 10px 15pc 0 0;
+}
+.gen .h2 ul li {
+    list-style: none;
+    padding: 5px;
+}
+
+.body {
+    padding: 40px;
+    background-color: #e3e3e3;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.active {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+.active1 h1{
+    padding-bottom: 15px;
+    font-size: 35px;
+}
+.active1 p{
+    color: rgb(0, 142, 0);
+    padding-bottom: 10px;
+}
+.active .btn-green{
+     background-image: linear-gradient(to bottom left, #1f7a4d, rgb(118, 118, 118));
+     color: white;
+     padding: 8px 18px;
+     border: none;
+     border-radius: 15px;
+}
+.active .btn2{
+    padding: 8px 18px;
+     border: 2px solid #1f7a4d;
+     border-radius: 15px;
+     color: green;
+     background-color: white;
+}
+.card-all {
+    display: flex;
+
+}
+
+.cards {
+    /* display: grid; */
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 20px;
+    padding: 20px;
+    /* background-color: #1f7a4d; */
+    background-image: linear-gradient(to bottom left, #1f7a4d, rgb(118, 118, 118));
+    width: 25%;
+    height: 130px;
+    color: white;
+    padding: 40px 20px;
+    border-radius: 20px;
+}
+
+.cards h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.cards p {
+    /* padding: 15px; */
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card {
+    padding: 20px;
+    background-color: white;
+    width: 25%;
+    height: 130px;
+    padding: 20px;
+    border-radius: 12px;
+    /* border: 1px solid; */
+    margin: 0 7px;
+}
+
+.card h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.mid {
+    display: flex;
+}
+
+.mid-1 {
+    padding: 10px 20px;
+    background-color: white;
+    margin: 15px 7px 0 0;
+    height: 170px;
+    border-radius: 15px;
+}
+
+.mid-1 h3 {
+    padding: 10px;
+    font-size: 17px;
+}
+
+.mid-1 p {
+    color: #1f7a4d;
+    font-size: 20px;
+    padding: 12px 5px;
+}
+
+.mid-1 .btn3 {
+    padding: 10px 20px;
+    background-image: linear-gradient(to bottom left, #1f7a4d, rgb(118, 118, 118));
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+
+.pro-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pro {
+    background-color: white;
+    margin: 15px 20px;
+    padding: 15px 10px;
+    border-radius: 20px;
+    height: 230px;
+}
+
+.pro-1 h3 {
+    font-size: 17px;
+    padding: 10px 10px;
+}
+
+.pro-1 .btn4 {
+    border-radius: 15px;
+    color: #1f7a4d;
+    padding: 5px 15px;
+    margin: 0 0 10px 0;
+    background-color: transparent;
+}
+
+.pro ul li {
+    list-style: none;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom {
+    background-color: white;
+    padding: 15px 7px 0 15px;
+    border-radius: 20px;
+}
+
+.team h3 {
+    padding: 10px 20px;
+}
+
+.team .btn5 {
+    margin: 10px 10px 7px 30px;
+    background: transparent;
+    padding: 5px 20px;
+    border-radius: 12px;
+    border: 2px solid #1f7a4d;
+}
+
+.li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.bottom ul li {
+    padding: 8px;
+    list-style: none;
+}
+
+.li .btn6 {
+    padding: 0 10px;
+    border-radius: 5px;
+    background-color: rgb(190, 255, 190);
+    color: #1f7a4d;
+    border: none;
+}
+
+.li .btn7 {
+    padding: 0 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 196);
+    color: rgb(217, 217, 0);
+    border: none;
+}
+
+.li .btn8 {
+    padding: 0 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 209, 216);
+    color: rgb(255, 96, 96);
+    border: none;
 }

@@ -29,28 +29,48 @@
 .para {
     padding: 10px;
 }
-
+.para:hover{
+    color: #098e4c;
+}
 .logo {
     margin: 20px 0 30px 20px;
 }
-
+.logo:hover{
+    color: #098e4c;
+}
 .sidebar ul li {
     padding: 5px;
     margin-bottom: 10px;
     list-style: none;
 }
 
+.sidebar ul li:hover {
+    color: #098e4c;
+}
+
 .gen {
     padding: 0px 40px;
 }
-.h .h1{
+.gen p:hover{
+    color: #098e4c;
+}
+.h .h1 {
     border-left: 7px solid rgb(0, 96, 0);
     border-radius: 5px;
-    padding: 10px 15pc 0 0;
+    padding: 10px 15px 10px 0;
+    font-size: 25px;
 }
-.gen .h2 ul li {
+.h .h1:hover{
+    color: #098e4c;
+}
+.h2 ul li {
     list-style: none;
-    padding: 5px;
+    margin-top: 7px;
+    padding: 7px;
+}
+
+.h2 ul li:hover {
+    color: #098e4c;
 }
 
 .body {
@@ -65,28 +85,48 @@
     justify-content: space-between;
     padding: 15px 20px;
 }
-.active1 h1{
+
+.active1 h1 {
     padding-bottom: 15px;
     font-size: 35px;
 }
-.active1 p{
+.active1 h1:hover{
+    color: #098e4c;
+}
+.active1 p {
     color: rgb(0, 142, 0);
     padding-bottom: 10px;
 }
-.active .btn-green{
-     background-image: linear-gradient(to bottom left, #1f7a4d, rgb(118, 118, 118));
-     color: white;
-     padding: 8px 18px;
-     border: none;
-     border-radius: 15px;
+.active1 p:hover{
+    color:black;
 }
-.active .btn2{
+.active .btn-green {
+    background-image: linear-gradient(to bottom left, #1f7a4d, rgb(118, 118, 118));
+    color: white;
     padding: 8px 18px;
-     border: 2px solid #1f7a4d;
-     border-radius: 15px;
-     color: green;
-     background-color: white;
+    border: none;
+    border-radius: 15px;
 }
+
+.btn-green:hover {
+    border: 2px solid #1f7a4d;
+    color: green;
+    background: white;
+}
+
+.active .btn2 {
+    padding: 8px 18px;
+    border: 2px solid #1f7a4d;
+    border-radius: 15px;
+    color: green;
+    background-color: white;
+}
+
+.btn2:hover {
+    background-image: linear-gradient(to bottom left, #1f7a4d, rgb(118, 118, 118));
+    color: white;
+}
+
 .card-all {
     display: flex;
 
@@ -96,13 +136,12 @@
     /* display: grid; */
     grid-template-columns: repeat(4, 1fr);
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 40px 20px;
     /* background-color: #1f7a4d; */
     background-image: linear-gradient(to bottom left, #1f7a4d, rgb(118, 118, 118));
     width: 25%;
     height: 130px;
     color: white;
-    padding: 40px 20px;
     border-radius: 20px;
 }
 
@@ -115,6 +154,11 @@
     /* padding: 15px; */
     font-size: 30px;
     font-weight: bold;
+}
+
+.cards:hover {
+    background: white;
+    color: black;
 }
 
 .card {
@@ -136,6 +180,11 @@
 .card p {
     font-size: 30px;
     font-weight: bold;
+}
+
+.card:hover {
+    background-image: linear-gradient(to bottom left, #1f7a4d, rgb(118, 118, 118));
+    color: white;
 }
 
 .mid {
@@ -169,6 +218,12 @@
     color: white;
 }
 
+.btn3:hover {
+    border: 2px solid #1f7a4d;
+    color: green;
+    background: white;
+}
+
 .pro-1 {
     display: flex;
     justify-content: space-between;
@@ -193,6 +248,12 @@
     padding: 5px 15px;
     margin: 0 0 10px 0;
     background-color: transparent;
+}
+
+.btn4:hover {
+    background-image: linear-gradient(to bottom left, #1f7a4d, rgb(118, 118, 118));
+    color: white;
+    border: none;
 }
 
 .pro ul li {
@@ -222,6 +283,12 @@
     padding: 5px 20px;
     border-radius: 12px;
     border: 2px solid #1f7a4d;
+}
+
+.btn5:hover {
+    background-image: linear-gradient(to bottom left, #1f7a4d, rgb(118, 118, 118));
+    color: white;
+    border: none;
 }
 
 .li {
